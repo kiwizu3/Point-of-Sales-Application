@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Product List</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script src="product.js"></script>
+	</head>
+	<body>
+
+	<div class="headline">
+            ACME Groccers
+        </div>
+
+	<div class="billbox">
+		Enter Product Details<br/>
+	<form id="form2">
+		<input type="text" id="pCode" name="productCode" placeholder="Enter product Code">
+		<br />
+		<input type="text" id="units" name="pUnits" placeholder="Enter Units">
+		<br />
+		<button type="button" onclick="populate()">Populate</button>
+	</form>
+		<p class="sidetext" id="popText"></p>
+	</div>
+
+	<div id="bill">
+		<button type="button" onclick="generateBill()">Generate Bill</button>
+	</div>
+
+
+	<div class="table">
+	<table style="...">
+		<tr>
+			<th>Product Code</th>
+			<th>Product Name</th>
+			<th>Units</th>
+			<th>Price</th>
+			<th>Line Total</th>
+		</tr>
+		<tr id="row1" style="...">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr id="row2" style="...">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr id="row3" style="...">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr id="row4" style="...">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr id="row5" style="...">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<div  class="tax" style="">
+	<p id="CGST"></p><br />
+	<p id="SGST"></p><br />
+	</div>
+
+	<div class="total">
+		<p id="gdTotal"></p>
+	</div>
+
+	</body>
+</html>

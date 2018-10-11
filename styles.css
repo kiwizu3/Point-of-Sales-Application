@@ -1,0 +1,133 @@
+.headline{
+	background-color: #E9967A;
+	color:red;
+	font-style: italic;
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.loginbox{
+	top:30px;
+	background-color: #E9967A;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 40%;
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    color: blue;
+    border:10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.billbox{
+	top:25px;
+	background-color: #E9967A;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 30%;
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    color: blue;
+    border:10px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+input[type="text"],input[type="password"]{
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-left: 35px;
+	margin-top: 12px;
+	margin-bottom: : 12px;
+	position: relative;
+	height: 50px;
+	width: 250px;
+	font-size: 35px;
+}
+
+button[type="button"]{
+	color: #E9967A;
+	background-color: lightgray;
+	border-color: black;
+	margin-top: 10px;
+	margin-bottom: : 10px;
+	position: relative;
+	height: 40px;
+	width: 120px;
+	font-size: 20px;
+
+}
+
+.sidetext{
+	font-size: 0.5em;
+	color: green;
+
+}
+#bill{
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+	margin-bottom: : 10px;
+}
+
+#bill button{
+	color: green;
+	background-color: yellow;
+	border-color: lightgreen;
+	margin-top: 10px;
+	margin-bottom: : 10px;
+	position: relative;
+	height: 40px;
+	width: 160px;
+	font-size: 20px;
+}
+
+.table{
+	margin-top: 30px;
+	margin-bottom: : 10px;
+	position: relative;
+	border-color: gray;
+
+}
+
+.tax{
+	float: left;
+	margin-left: 10px;
+	position: relative;
+	font-size: 20px;
+	font-style: bold;
+}
+
+.total{
+	margin-right: 10px;
+	float: right;
+	position: relative;
+	font-size: 20px;
+	font-style: bold;
+}
+
+
+
+table ,td,th{
+
+    border: 1px dotted black;
+    text-align:center;
+    background-color: black;
+}
+
+th{
+	background-color: yellow;
+}
+table {
+    border-spacing: 1px;
+}
